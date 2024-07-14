@@ -57,5 +57,6 @@ int main(void)
     Array<int> f(b);
     for (i = 0 ; i < f.size() ; i++)
         std::cout << f[i] << std::endl;
+
     return (0);
 }
