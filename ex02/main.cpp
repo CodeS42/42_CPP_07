@@ -54,5 +54,8 @@ int main(void)
     std::cout << d[0] << std::endl;
     // d[0] = "hi";
 
+    Array<int> f(b);
+    for (i = 0 ; i < f.size() ; i++)
+        std::cout << f[i] << std::endl;
     return (0);
 }

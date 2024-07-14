@@ -24,6 +24,7 @@ class Array
 		Array(const Array& obj)
 		{
 			std::cout << "Array copy constructor called." << std::endl;
+			array = NULL;
 			*this = obj;
 		}
 
